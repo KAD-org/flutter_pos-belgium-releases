@@ -3,24 +3,24 @@
   "stream": "v19",
   "channel": "belgium",
   "odoo_major": 19,
-  "version": "3.86.2",
-  "build": 214,
-  "tag": "v19-belgium-3.86.2-rc.214",
+  "version": "3.86.3",
+  "build": 215,
+  "tag": "v19-belgium-3.86.3-rc.215",
   "source": {
-    "flutter_commit": "0714ea51a8e61f8793d25f33f56701ed0355c3dc",
+    "flutter_commit": "1b6c192ac5bdc703b03996185e028d9e0ebe63af",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/belgium",
-    "backend_commit": "d8ee7fc6aeb0f9a0d2c4ef42fbad0020b99b74cd"
+    "backend_commit": "b14fccb7ad9cf1f8dc785e098965bfe69124b216"
   },
-  "published_at": "2026-09-22T12:10:02Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.86.2-rc.214",
-  "body": "## [3.86.2] - 2026-09-22\n\n### Bug Fixes\n\n- wait for pending Belgium checks (#449)\n\n### Other Changes\n\n- accelerate Belgium release candidates (#447)",
+  "published_at": "2026-09-22T12:42:31Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.86.3-rc.215",
+  "body": "## [3.86.3] - 2026-09-22\n\n### Other Changes\n\n- skip Flutter setup for Belgium version candidates",
   "assets": {
     "android": {
-      "name": "flutter-pos-odoo19-3.86.2-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.86.2-rc.214/flutter-pos-odoo19-3.86.2-android.apk",
-      "sha256": "1673b04562ec8dede40088c421d2f6e834dff2a88ee14b6876efce8de196ab02",
-      "size_bytes": 61141639
+      "name": "flutter-pos-odoo19-3.86.3-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.86.3-rc.215/flutter-pos-odoo19-3.86.3-android.apk",
+      "sha256": "652dd78cc17dd67fc6a0274d6749e85ee129923a88d921321ef0cb2bcd088b7e",
+      "size_bytes": 61142074
     }
   }
 }
