@@ -3,24 +3,24 @@
   "stream": "v19",
   "channel": "belgium",
   "odoo_major": 19,
-  "version": "3.86.3",
-  "build": 215,
-  "tag": "v19-belgium-3.86.3-rc.215",
+  "version": "3.88.0",
+  "build": 216,
+  "tag": "v19-belgium-3.88.0-rc.216",
   "source": {
-    "flutter_commit": "1b6c192ac5bdc703b03996185e028d9e0ebe63af",
+    "flutter_commit": "42b03961a91c3a77451646cadf6ac827de28c07f",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/belgium",
-    "backend_commit": "b14fccb7ad9cf1f8dc785e098965bfe69124b216"
+    "backend_commit": "3a446b313dd70cb4176583b66fe5f4e990ed3867"
   },
-  "published_at": "2026-09-22T12:42:31Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.86.3-rc.215",
-  "body": "## [3.86.3] - 2026-09-22\n\n### Other Changes\n\n- skip Flutter setup for Belgium version candidates",
+  "published_at": "2026-09-23T09:14:25Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.88.0-rc.216",
+  "body": "## [3.88.0] - 2026-09-23\n\n### Features\n\n- stack promotions by priority so lower-priority promos price what is still owed\n\n### Bug Fixes\n\n- retain direct-tag release baseline\n- retain kiosk checkout integrity guards\n- normalize kiosk voucher tender total\n- block partial voucher settlement in kiosk\n- clear admin draft before secondary navigation paths too\n- revert pubspec.lock to the pinned-SDK-compatible resolution\n- kiosk admin double-tap-counting, draft-override leak, label shrink, image crop\n- remove duplicate lockfile fields breaking pub get\n- prevent AppStatusFooter status-items overflow at desktop width\n- restore scoped product updates\n\n### Other Changes\n\n- tag prepared release candidate directly\n- Fix product target dropdown for Flutter 3.32\n- pin Belgium frontend to merged Nayax API change\n- kiosk payment buttons, color customization, keyboard/image/i18n fixes\n- refund engine\n- Keep customer keyboard editor visible\n- Persist kiosk promotion lines\n- Print standard kiosk receipts\n- Restore regular POS keyboard layout\n- Fix kiosk keyboard test provider import\n- Restrict keyboard layout overrides to self-order\n- Scope keyboard layout settings to self-order kiosk\n- Enhance kiosk navigation and product loading experience\n- Refactor product grid layout and update keyboard size settings\n- Scale kiosk keyboard height at max width\n- Keep resized kiosk keyboard within viewport\n- Tune kiosk keyboard and catalog pagination\n- Fix kiosk variant pricing and product paging\n- Protect kiosk settings and move keyboard\n- Add kiosk runtime settings and review adjustments\n- Scale self-order kiosk keyboard for portrait screens\n- Fix self-order kiosk checkout flow",
   "assets": {
     "android": {
-      "name": "flutter-pos-odoo19-3.86.3-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.86.3-rc.215/flutter-pos-odoo19-3.86.3-android.apk",
-      "sha256": "652dd78cc17dd67fc6a0274d6749e85ee129923a88d921321ef0cb2bcd088b7e",
-      "size_bytes": 61142074
+      "name": "flutter-pos-odoo19-3.88.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.88.0-rc.216/flutter-pos-odoo19-3.88.0-android.apk",
+      "sha256": "a6f5cab066edda03f0bfbf0138e03ff786293dcbae8fabe50480a1b618ad8e33",
+      "size_bytes": 61427556
     }
   }
 }
