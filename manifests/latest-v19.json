@@ -3,24 +3,24 @@
   "stream": "v19",
   "channel": "belgium",
   "odoo_major": 19,
-  "version": "3.88.1",
-  "build": 217,
-  "tag": "v19-belgium-3.88.1-rc.217",
+  "version": "3.89.0",
+  "build": 218,
+  "tag": "v19-belgium-3.89.0-rc.218",
   "source": {
-    "flutter_commit": "df90258a6496d20bccd5049c5b5a2b473ae10497",
+    "flutter_commit": "a04dcbbd809b6618efc8a968ca2170f9d214774f",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/belgium",
-    "backend_commit": "9113cc4fe172ba7d9821a9d1c1e80306bb82f932"
+    "backend_commit": "aaeb3a9311940c2e6b13be46ce01c2894ee605d5"
   },
-  "published_at": "2026-09-23T11:00:36Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.88.1-rc.217",
-  "body": "## [3.88.1] - 2026-09-23\n\n### Bug Fixes\n\n- settle kiosk cash payments in currency units (#460)",
+  "published_at": "2026-09-23T14:20:21Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.89.0-rc.218",
+  "body": "## [3.89.0] - 2026-09-23\n\n### Features\n\n- Implement refund availability checks and enhance refund functionality\n\n### Bug Fixes\n\n- restore order button when POS selection fails\n- align kiosk styling, promotions and order controls",
   "assets": {
     "android": {
-      "name": "flutter-pos-odoo19-3.88.1-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.88.1-rc.217/flutter-pos-odoo19-3.88.1-android.apk",
-      "sha256": "433c47f7f86aabd8ac21d9a1bb29c113447346d6db57f690918008724ac44598",
-      "size_bytes": 61430646
+      "name": "flutter-pos-odoo19-3.89.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.89.0-rc.218/flutter-pos-odoo19-3.89.0-android.apk",
+      "sha256": "552c02a8ccbab09ee6ecdced8212127b2376f2799eba5e3ce5b4da0947299116",
+      "size_bytes": 61489042
     }
   }
 }
