@@ -3,24 +3,24 @@
   "stream": "v19",
   "channel": "belgium",
   "odoo_major": 19,
-  "version": "3.90.1",
-  "build": 220,
-  "tag": "v19-belgium-3.90.1-rc.220",
+  "version": "3.90.2",
+  "build": 221,
+  "tag": "v19-belgium-3.90.2-rc.221",
   "source": {
-    "flutter_commit": "7de740ffd7ee8b2d3edb06b5690b430f2e289b49",
+    "flutter_commit": "c4c3ac6291d8736e8545a307c170053863f6373b",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/belgium",
-    "backend_commit": "ae6ff8d7ef29ee5039c6fbd637f810c93121603f"
+    "backend_commit": "2dfbde60743343d4a7ddddce85a000e57922174e"
   },
-  "published_at": "2026-09-24T11:56:16Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.90.1-rc.220",
-  "body": "## [3.90.1] - 2026-09-24\n\n### Bug Fixes\n\n- enhance transaction classification for engine references\n- support internal agamento engine terminals",
+  "published_at": "2026-09-24T12:30:06Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.90.2-rc.221",
+  "body": "## [3.90.2] - 2026-09-24\n\n### Bug Fixes\n\n- preserve async navigation after close\n\n### Other Changes\n\n- Make version updater accessible on phones",
   "assets": {
     "android": {
-      "name": "flutter-pos-odoo19-3.90.1-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.90.1-rc.220/flutter-pos-odoo19-3.90.1-android.apk",
-      "sha256": "166eb57ef346e37b41db378c7c3e56e81ea16ce2a6be611449d78c369f63319f",
-      "size_bytes": 62851643
+      "name": "flutter-pos-odoo19-3.90.2-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.90.2-rc.221/flutter-pos-odoo19-3.90.2-android.apk",
+      "sha256": "95bc8c908ebccaa5214f6715b87997273e5c7dd34862fa8e590116013352a6e8",
+      "size_bytes": 62852110
     }
   }
 }
