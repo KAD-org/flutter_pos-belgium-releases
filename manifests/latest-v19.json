@@ -3,24 +3,24 @@
   "stream": "v19",
   "channel": "belgium",
   "odoo_major": 19,
-  "version": "3.90.0",
-  "build": 219,
-  "tag": "v19-belgium-3.90.0-rc.219",
+  "version": "3.90.1",
+  "build": 220,
+  "tag": "v19-belgium-3.90.1-rc.220",
   "source": {
-    "flutter_commit": "089b65bf619e37cac942978f8a8b22a6e8209daa",
+    "flutter_commit": "7de740ffd7ee8b2d3edb06b5690b430f2e289b49",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/belgium",
-    "backend_commit": "d9be43ad7023c7895112ffa65aca15ee69a058f1"
+    "backend_commit": "ae6ff8d7ef29ee5039c6fbd637f810c93121603f"
   },
-  "published_at": "2026-09-24T08:45:25Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.90.0-rc.219",
-  "body": "## [3.90.0] - 2026-09-24\n\n### Features\n\n- use AIONE logo in Belgium\n\n### Bug Fixes\n\n- constrain Belgium tablet splash\n\n### Other Changes\n\n- refresh Belgium branding checks",
+  "published_at": "2026-09-24T11:56:16Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/tag/v19-belgium-3.90.1-rc.220",
+  "body": "## [3.90.1] - 2026-09-24\n\n### Bug Fixes\n\n- enhance transaction classification for engine references\n- support internal agamento engine terminals",
   "assets": {
     "android": {
-      "name": "flutter-pos-odoo19-3.90.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.90.0-rc.219/flutter-pos-odoo19-3.90.0-android.apk",
-      "sha256": "178845c0675c71860641c5e0740948df36c0da292c05f1e6386aac70abbc32f0",
-      "size_bytes": 62847527
+      "name": "flutter-pos-odoo19-3.90.1-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-belgium-releases/releases/download/v19-belgium-3.90.1-rc.220/flutter-pos-odoo19-3.90.1-android.apk",
+      "sha256": "166eb57ef346e37b41db378c7c3e56e81ea16ce2a6be611449d78c369f63319f",
+      "size_bytes": 62851643
     }
   }
 }
